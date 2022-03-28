@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.flex-row img{
+    width: 50px;
+    height: 50px;
+}
+
+.flex-row{
+    display: flex !important;
+    flex-direction: row !important;
+    background-color: white;
+    color: rgb(0, 162, 255);
+    border-radius: 5px;
+   
+}
+
+
+
+.flex-row h5{
+    margin-right: 50px;
+    
+}
+.flex-row img{
+    margin-right: 60px;
+    margin-left: 10px;
+}
+
+/* .navbar-nav{
+    color: rgb(137, 137, 212) !important;
+    font-size: larger;
+    font-style: bold;
+    /* width: 800px; */
+
+/* .navbar-nav li{
+    margin-left: 70px;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    position: relative;
+} */
+
+.wrap{
+    background-image: url("../images/images/banner.png");
+    object-fit: contain;
+    background-color: rgb(235, 229, 222);
+    height: 850px;
+}
+.parent-2{
+    text-align: end;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    
+}
+.para{
+    height: 8px;
+    margin-top: 150px;
+}
+
+.parent-2 > .btn{
+    border-radius: 5px;
+    background-color: rgb(48, 48, 63);
+    width: 100px;
+    border: 2px;
+    line-height: 18px;
+    margin-top: -23px;
+    /* margin-right: 280px; */
+}
+.parent-2 > .bt-2{
+    margin-right: 280px;
+
+}
+
+.para-5{
+    display: flex;
+    justify-content: center;
+}
+.para-1{
+    font-size: 50px;
+}
+.road{
+    color: rgb(47, 153, 195);
+    
+}
+.btn{
+    border-radius: 20px;
+    width: 150px;
+}
+.parent{
+    position: relative !important;
+    display: inline-block;
+}
+.bi{
+    position: absolute !important;
+}
+
+.para-6{
+    font-size: 35px;
+    color: rgb(17, 46, 70);
+    margin-top: 60px;
+}
+.para-1, .para-2, .para-8{
+    color: rgb(19, 42, 61);
+
+}
+.card img{
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.para-8{
+    margin-bottom: 30px;
+}
+.div-3{
+    background-color: rgb(236, 234, 234);
+}
+.para-10{
+    margin: 50px;
+}
+.para-9{
+    margin-left: -150px;
+    background-color: rgb(220, 233, 233);
+}
